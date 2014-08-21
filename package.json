@@ -1,0 +1,36 @@
+{
+  "name": "toast",
+  "version": "1.0.0",
+  "description": "Toast。页面顶部提示，常用于ajax操作成功和失败的信息提示",
+  "keywords": ["toast"],
+  "homepage": "",
+  "author": "Seven",
+  "authorInfo":[{
+    "name":"Seven",
+    "email":"cjxsgn@163.com",
+    "qq":"2499039555"
+   }],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Seven/toast.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "output":["index.css"],
+    "main": "index.js",
+    "dependencies": {
+      "jquery":"1.7.2",
+      "seajs-css":"1.0.2"
+    },
+    "devDependencies": {
+      "expect.js": "0.3.1"
+    },
+    "engines": {
+      "seajs": "2.2.1"
+    },
+    "tests": "tests/*.js"
+  }
+}
